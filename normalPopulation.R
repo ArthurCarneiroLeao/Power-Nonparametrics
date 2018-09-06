@@ -19,10 +19,3 @@ for(j in nobs) {
   power_nobs[c,] <- power
   c = c+1
 }
-
-plot(mu_test, power_nobs[3,])
-abline(v = mu_verd, lty = 1)
-abline(h = .05, lty = 1)
-
-
-
