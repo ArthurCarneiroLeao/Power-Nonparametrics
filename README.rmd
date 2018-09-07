@@ -1,0 +1,8 @@
+# Power-Nonparametrics
+In statistical inference, we develop hypothesis testing over a distribution by using a test statistic.  
+With the aim to compare the performance of the test statistic T in the following hypotheses, we generate data from 4 different distributions:
+
+$\begin{itemize}
+  \item a
+  \item b
+\end{itemize}$
