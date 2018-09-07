@@ -1,1 +1,1 @@
-# Power/Nonparametrics
+# Power-Nonparametrics
