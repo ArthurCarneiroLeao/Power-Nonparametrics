@@ -1,11 +1,11 @@
 m <- 1000            #number of replicas
 mu_verd <- 1/2       #true value of the population parameter
-sigma <- 1          #variance parameter of the population
-mu_test <- c(seq(-3.5, 4, .3))   #test values
+sigma <- 1           #variance parameter of the population
+mu_test <- c(seq(-3.5, 4, .3))    #test values
 M <- length(mu_test)              #number of Monte Carlo replicas
-power <- numeric(M)               #vector to storage the empirrical power of the test
+power <- numeric(M)               #vector to storage the empirical power of the test
 nobs <- c(20, 40, 50, 100)        #sampling size
-power_nobs <- matrix(0,length(nobs),M)
+power_nobs <- matrix(0,length(nobs),M)  #matrix to storage the empirical power of the test for each size n
 c <- 1
 for(j in nobs) {
   for (i in 1:M) {
