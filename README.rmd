@@ -2,10 +2,10 @@
 In statistical inference, we develop hypothesis testing over a distribution by using a test statistic.  
 With the aim to compare the performance of the test statistic T in the following hypotheses, we generate data from 4 different distributions :
 
-  -Normal;
+  - Normal(0.5,1);
   
-  -Exponential;
+  - Exponential(2);
   
-  -Uniform;
+  - Uniform(0,1);
   
-  -cauchy.
+  - Cauchy(0.5,1).
