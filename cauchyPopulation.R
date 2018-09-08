@@ -2,7 +2,7 @@ m <- 1000            #number of replicas
 mu_verd <- 1/2       #true value of the population parameter
 mu_test <- c(0.1,0.15,0.2,0.25,0.3,0.4,.5,1,1.5,2,2.5,3,3.5,4,4.5,5)   #test values
 M <- length(mu_test)              #number of Monte Carlo replicas
-power <- numeric(M)               #vector to storage the empirrical power of the test
+power <- numeric(M)               #vector to storage the empirical power of the test
 nobs <- c(20, 40, 50, 100)        #sampling size
 power_nobs <- matrix(0,length(nobs),M)  #matrix to storage the empirical power of the test for each size n
 c <- 1
