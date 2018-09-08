@@ -1,6 +1,6 @@
 # Power-Nonparametrics
 In statistical inference, we develop hypothesis testing over a distribution by using a test statistic.  
-With the aim to compare the performance of the test statistic T in the following hypotheses, we generate data from 4 different distributions :
+With the aim to compare the performance of the test statistic T in the following hypotheses ![testing](https://chart.googleapis.com/chart?cht=tx&chl=H_0%3A+%5Cmu+%3D+%5Cmu_0+vs+H_1%3A+%5Cmu+%3E+%5Cmu_0), we generate data from 4 different distributions :
 
   - Normal(0.5,1);
   
@@ -9,3 +9,18 @@ With the aim to compare the performance of the test statistic T in the following
   - Uniform(0,1);
   
   - Cauchy(0.5,1).
+ 
+ To measure the performance, we shall use the power function,
+ 
+ ## Normal
+ ![img](powerPlots/power_normal.png)
+ 
+ ## Exponential
+ ![img](powerPlots/power_exponential.png)
+ 
+ ## Uniform
+ ![img](powerPlots/power_uniform.png)
+ 
+ ## Cauchy
+ ![img](powerPlots/power_cauchy.png)
+ 
